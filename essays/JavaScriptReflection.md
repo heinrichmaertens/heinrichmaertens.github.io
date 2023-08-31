@@ -8,6 +8,6 @@ published: true
 labels:
   - Javascript
 ---
-##Test Essay Content
+## Test Essay Content
 
 a;dkfja;kljf
