@@ -11,8 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
 ## Tips from the community
 
 
@@ -91,6 +89,16 @@ The feedback from other users was also highly detailed, with screenshots and exa
 > 2. Using windows explorer, navigate to the `Sdk/cmdline-tools` folder. On my system it's located at `C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\cmdline-tools`.
 > 3. Rename the `8.0` folder to `latest`
 > 4. Run `flutter doctor --android-licenses`.
+
+
+## Review
+
+The key difference between the smart question and the "not-so-smart question" is the number of people who were able to benefit from the question. In the case of the smart question, the respondents posted a more detailed reply and provided a working solution to the exact query. This meant that not only the original asker, but also anyone else who had a similar issue, could benefit from the community's feedback.
+
+On the other hand, the not-so-smart question did not provide enough specific details or clear information. While the specific problem was solved, what happens at the next stage of the user's code when they run into another problem? This type of problem-solving will become unsustainable if they endeavor to solve more significant problems. Lots of people have viewed this answer. While that may make it seem like a clear benefit, this is by no means the only place to learn how to sort a list. The problems arise when a flood of these low-level, easy-to-research questions pop up, taking resources away from the more novel, nuanced issues also posted by other coders. 
+
+Overall, the smart question demonstrated the importance of clear and concise communication in asking for help. By providing specific details and being concise, the asker enabled the respondents to provide effective and efficient assistance, benefiting not only themselves but also others who may have had similar issues. On the other hand, the not-so-smart question highlighted the potential pitfalls of vague and unclear communication, resulting in a less productive interaction.
+
 
 
 
