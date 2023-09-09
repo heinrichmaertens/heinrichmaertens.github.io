@@ -79,7 +79,7 @@ The user complained about an error he was recieving in VSCode:
 
 In this second post, we can see that the forum user provided all the relevant console extracts and some troubleshooting steps they had attempted.  They listed their environment, and some settings they thought were relevant. Along with the title, the post's formatting proved quite effective as it received five thousand views within the month that it has been up, meaning that lots of people were likely able to benefit from the community's feedback. 
 
-The feedback from other users was also highly detailed, with screenshots and exact steps walking through the steps to solve the issue. 
+The feedback from other users was also highly detailed, with screenshots and exact steps walking through the steps to solve the issue:
 
 > I was able to resolve this issue on Windows 10 with these steps
 > 
@@ -89,6 +89,9 @@ The feedback from other users was also highly detailed, with screenshots and exa
 > 2. Using windows explorer, navigate to the `Sdk/cmdline-tools` folder. On my system it's located at `C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\cmdline-tools`.
 > 3. Rename the `8.0` folder to `latest`
 > 4. Run `flutter doctor --android-licenses`.
+
+One example reply to this posted solution was:
+> Thank you so much for this answer! It worked perfectly and solved my issue. You're a lifesaver! What I was missing was to select the 'show package details' otherwise the older version 8.0 was not visible.
 
 
 ## Review
