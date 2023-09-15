@@ -14,7 +14,7 @@ summary: "My team worked on a simulated dataset to track genetic changes that th
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="..img/genetics/genetics_project.png" class="img-thumbnail" >
+  <img width="200px" src="https://heinrichmaertens.github.io/img/genetics/genetics_project.png" class="img-thumbnail" >
 </div>
 
 ### A Genetic Detective Story

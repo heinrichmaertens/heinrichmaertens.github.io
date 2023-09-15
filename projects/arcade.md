@@ -13,7 +13,7 @@ summary: "My team created a replica of an arcade game called Joust origionally f
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="..img/arcade/arcade_project.png" class="img-thumbnail" >
+  <img width="200px" src="https://heinrichmaertens.github.io/img/arcade/arcade_project.png" class="img-thumbnail" >
 </div>
 
 ### Remaking Joust in Java

@@ -13,7 +13,7 @@ summary: "Competed in a startup weekend event with a project trying to address l
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="..img/startup/startup_project.png" class="img-thumbnail" >
+  <img width="200px" src="https://heinrichmaertens.github.io/img/startup/startup_project.png" class="img-thumbnail" >
 </div>
 
 ### Building a startup idea
