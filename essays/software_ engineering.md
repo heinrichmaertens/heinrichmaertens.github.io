@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Online Forum Etiquette: Asking Smart Questions"
+title: "My intrest in SoftwareEngineering"
 # All dates must be YYYY-MM-DD format!
-date: 2023-09-08
+date: 2023-09-02
 published: true
 labels:
   - Software Engineering
