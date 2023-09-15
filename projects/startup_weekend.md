@@ -26,8 +26,6 @@ Our technology has the potential to be used in a variety of other settings where
 
 We are excited about the potential of our technology to improve safety and security in hotels and other critical areas. We have developed a prototype and are currently testing it in real-world settings. We believe that our technology has the potential to save lives and prevent accidents.
 
-We are aware of the multiple lawsuits that have been filed against service providers who have failed to fix broken lights, which resulted in accidents or crimes. Our technology could help to prevent these accidents and crimes by providing a quick and reliable backup lighting solution.
-
-We are confident that our technology has the potential to make a significant impact on safety and security in hotels and other critical areas. We are committed to developing and commercializing our technology so that it can be used to save lives and prevent accidents.
+These are all industries where multiple lawsuits that have been filed against service providers who have failed to fix broken lights, which resulted in accidents or crimes. The technology could help to prevent these accidents and crimes by providing a quick and reliable backup lighting solution.
 
 []Text]
