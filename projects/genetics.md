@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/genetics/genetics_project_logo.png
 title: "Tracking genetic history of a population"
-date: 2021
+date: 
 published: true
 labels:
   - Statistics
