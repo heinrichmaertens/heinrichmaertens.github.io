@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/startup/startup_project_logo.jpg
+image: img/startup/startup_project_logo.png
 title: "Startup Weekend"
 date: 
 published: true
@@ -13,7 +13,7 @@ summary: "Competed in a startup weekend event with a project trying to address l
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="..img/startup/startup_project.jpg" class="img-thumbnail" >
+  <img width="200px" src="..img/startup/startup_project.png" class="img-thumbnail" >
 </div>
 
 ### Building a startup idea
