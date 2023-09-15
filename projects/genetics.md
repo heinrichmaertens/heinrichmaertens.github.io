@@ -8,7 +8,7 @@ published: true
 labels:
   - Statistics
   - Genetics
-  - Coding
+  - Software Engineering
   - R
 summary: "My team worked on a simulated dataset to track genetic changes that the population went through"
 ---

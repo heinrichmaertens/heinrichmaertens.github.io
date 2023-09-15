@@ -7,7 +7,7 @@ date: 2021
 published: true
 labels:
   - Game Development
-  - Coding
+  - Software Engineering
   - Java
 summary: "My team created a replica of an arcade game called Joust origionally from the '80s using Java"
 ---

@@ -7,6 +7,7 @@ date: 2023-08-30
 published: true
 labels:
   - Javascript
+  - Software Engineering
 ---
 ## Impressions of ICS 314 so far
 
