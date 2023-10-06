@@ -1,4 +1,4 @@
-/* Custom Theme: modifies the default theme to use Objektiv for the header fonts and Proxima Nova for the rest */
+/* Custom Theme: modifies the default theme to use Abolition for the header fonts and Proxima Nova for the rest */
 
 /*Objektiv & Proxima Nova*/
 @import url("https://use.typekit.net/uye7eve.css");
@@ -16,7 +16,7 @@
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: "objektiv-mk3", sans-serif;
+  font-family: "abolition", sans-serif;
 }
 
 /* Format social media icons */
