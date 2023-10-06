@@ -12,8 +12,9 @@ labels:
 ---
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=png&ixid=M3wxNDIyNzR8MHwxfHNlYXJjaHwxfHxib290c3RyYXAlMjBjb2RlfGVufDB8fHx8MTY5NjU4MDcwMHww&ixlib=rb-4.0.3&q=80&w=1080"/>
+  <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=png&ixid=M3wxNDIyNzR8MHwxfHNlYXJjaHwxfHxib290c3RyYXAlMjBjb2RlfGVufDB8fHx8MTY5NjU4MDcwMHww&ixlib=rb-4.0.3&q=80&w=540"/>
 </p>
+
 #### Overview
 
 Bootstrap 5 is a popular front-end framework for creating responsive web designs - between 1/4 and 1/5 of the net uses some version. Bootstrap provides a wide range of pre-built components and styles, saving developers time and effort. One of the most convenient aspects of Bootstrap is its intentionality of being compatible with many screen sizes (think phones, tablets, and computers). This means you can create a single website that will look great on all devices without writing much extra code.
@@ -25,7 +26,7 @@ Further, I did not use Bootstrap for pseudo-elements and pseudo-classes. Since t
 
 Going back to the positives, what I appreciated about Bootstrap was how fast I could get something set up to work off of. That speed helped make getting started less intimidating. My takeaway is that Bootstrap 5 is a great framework to include for most websites. It is excellent for beginners and experienced developers; providing pre-built components and styles can seriously speed up development. However, it's important to be aware of its limits and to be prepared to use some of your own CSS if needed.
 
-##### Here is a quick summary
+##### TLDR
 ###### **Pros**
 - Save time and effort
 - Create responsive designs easily
