@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "AIdea-tions Through Code: A Not-so-artificial Reflection on ICS 314"
 # All dates must be YYYY-MM-DD format!
-date: 2023-09-18
+date: 2023-11-17
 published: true
 labels:
   - Software Engineering
