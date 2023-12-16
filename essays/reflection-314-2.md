@@ -4,7 +4,7 @@ type: essay
 title: "Reflecting on Software Engineering: Coding Standards and Ethics"
 # All dates must be YYYY-MM-DD format!
 date: 2023-12-13
-published: true
+published: false
 labels:
   - Software Engineering
   - Coding Standards

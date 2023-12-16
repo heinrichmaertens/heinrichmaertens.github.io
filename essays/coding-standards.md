@@ -4,7 +4,7 @@ type: essay
 title: "Coding Standards: The Not-So-Secret Ingredient to Software Success"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-18
-published: true
+published: false
 labels:
   - Software Engineering
 
