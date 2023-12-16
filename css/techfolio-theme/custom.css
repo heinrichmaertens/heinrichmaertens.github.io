@@ -1,0 +1,60 @@
+/* Custom Theme: modifies the default theme to use Abolition for the header fonts and Proxima Nova for the rest */
+
+/*Objektiv & Proxima Nova*/
+@import url("https://use.typekit.net/uye7eve.css");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+:root {
+  --bs-font-sans-serif: "proxima-nova", sans-serif;
+  --bs-link-color: var(--bs-blue);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "abolition-soft", sans-serif;
+}
+
+h5 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h1 {
+  font-size: 3.5rem;
+}
+
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.2s;
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
+}

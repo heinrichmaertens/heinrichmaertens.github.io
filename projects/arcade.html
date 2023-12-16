@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Arcade Game | Heinrich Maertens | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/heinrichmaertens.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Heinrich Maertens | Professional Portfolio">
+    <meta property="og:url" content="https://heinrichmaertens.github.io/projects/arcade.html">
+    <meta property="og:title" content="Arcade Game | Heinrich Maertens | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/heinrichmaertens.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/monokai.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Arcade Game | Heinrich Maertens | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Heinrich Maertens</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Arcade Game</h1>
+ <div class="text-center p-4">
+  <img width="200px" src="https://heinrichmaertens.github.io/img/arcade/arcade_project.png" class="img-thumbnail" />
+</div>
+
+<h3 id="remaking-joust-in-java">Remaking Joust in Java</h3>
+
+<p>I’ve always been a fan of classic arcade games, so when I had the opportunity to remake a simpler version of Joust in Java for a project, I was excited to get started.</p>
+
+<p>Joust is a two-player game where players control knights on ostriches, trying to knock each other off of their mounts. The game was released in 1982 and was one of the most popular arcade games of its time.</p>
+
+<p>We quickly realized that we would need to make some smart choices about the algorithms we used, or else the game would be too slow to play. For example, we decided to draw the game objects based on individual objects in a scene, rather than trying to rasterize them all at once. This made the game much faster, but it also required us to do more work to keep track of the objects’ positions and rotations.</p>
+
+<p>We also had to make some decisions about the features of the game. We decided to make a single-player version of the game with fewer transitions and without lots of weapons. This made the game easier to develop, but it also made it less complex and challenging.</p>
+
+<p>For this project, my partner and I started by brainstorming how we could simplify the game while still keeping the core gameplay mechanics intact. We decided to focus on the single-player mode and remove some of the more complex elements, such as the ability to pick up weapons.</p>
+
+<p>The first few weeks of the project were spent learning the basics of Java and how to create graphics and animations. We also had to learn about algorithms for collision detection and pathfinding.</p>
+
+<p>Once we had a basic understanding of the concepts, we started working on the game’s code. We quickly realized that the program was very slow, since we were trying to rasterize all of the graphics. We fixed this by switching to drawing based on individual objects in a scene.</p>
+
+<p>Here are some of the specific challenges we faced and how we overcame them:</p>
+
+<p>Making the game fast enough: The original Joust game was designed to run on arcade machines with very limited hardware. We needed to make sure that our Java version of the game could run smoothly on modern computers. We did this by using efficient algorithms for drawing the game objects and by optimizing the code as much as possible.</p>
+
+<p>Keeping track of the game objects: The original Joust game has a relatively small number of game objects. Our Java version of the game has a much larger number of objects, which made it more difficult to keep track of their positions and rotations. We solved this problem by using a data structure called a “scene graph” to organize the game objects.
+Deciding on the features of the game: We had to make some tough decisions about which features to include in our Java version of Joust. We wanted to make the game as faithful to the original as possible, but we also wanted to make it playable on modern computers. In the end, we decided to make a single-player version of the game with fewer transitions and without lots of weapons.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

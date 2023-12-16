@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Online Forum Etiquette: Asking Smart Questions | Heinrich Maertens | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/heinrichmaertens.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Heinrich Maertens | Professional Portfolio">
+    <meta property="og:url" content="https://heinrichmaertens.github.io/essays/smart-questions.html">
+    <meta property="og:title" content="Online Forum Etiquette: Asking Smart Questions | Heinrich Maertens | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/heinrichmaertens.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/monokai.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Online Forum Etiquette: Asking Smart Questions | Heinrich Maertens | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Heinrich Maertens</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Online Forum Etiquette: Asking Smart Questions</h1>
+  <span class="date">08 Sep 2023</span>
+  <hr>
+  <h2 id="tips-from-the-community">Tips from the community</h2>
+
+<p>This post covers some of the concepts discussed in Eric Steven Raymond’s (also known as ESR) “<a href="http://www.catb.org/esr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a>.”  Some of the precepts listed in this essay include:</p>
+
+<ul>
+  <li>Do your homework before asking a question. This means searching for answers on your own, reading documentation, and trying to understand the problem on your own.</li>
+  <li>Be specific and concise in your question. The more specific you can be, the easier it will be for people to help you.</li>
+  <li>Avoid asking questions that are too broad or general.</li>
+  <li>Be polite and respectful when asking questions. Remember that the people who are helping you are volunteers.</li>
+  <li>Follow up with a brief note on the solution once you have solved your problem. This will help others who may have the same problem in the future.</li>
+</ul>
+
+<p>While ESR’s description may be very blunt in how he phrases advice to people using open-source forums - our professor felt more comfortable categorizing less optimal questions as “not so smart” -  he also seems genuinely interested in improving current help forums by making them more accessible through improving reader’s question-asking skills.</p>
+
+<h2 id="example-questions-from-stackoverflow">Example Questions from StackOverflow</h2>
+
+<h3 id="suboptimal-phrasing">Suboptimal phrasing</h3>
+
+<p>It’s essential to ask for help clearly and concisely, or you may face several potential downsides. If you ask a question that is too broad or general, it can be a frustrating experience for both you and the person answering your question. They may have to spend an excessive amount of time trying to understand what you’re asking, and as a result, provide you with an answer that is not relevant to your needs. Additionally, if your question is not clear or concise, the person answering your question may have to ask you for clarification, leading to misunderstandings and wasting time. Lastly, if you ask a question that has already been answered, you’re not only wasting the time of the person answering your question, but you’re also making it more difficult for others to find the answer to their question in the future. Search engines often rank previously answered questions lower than unanswered ones, so it’s important to ask questions that have not been addressed before.</p>
+
+<h4 id="one-example-such-negative-example-can-be-found-under-the-title-sort-a-list-in-python"><a href="https://stackoverflow.com/questions/19199984/sort-a-list-in-python">One example such negative example can be found under the title: “Sort a list in python”</a></h4>
+
+<p>The forum participant in this question is asking:</p>
+<blockquote>
+  <p>I have this list</p>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">9</span><span class="p">]</span>
+</code></pre></div>  </div>
+  <p>But now I want the list to be sorted like this:</p>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+</code></pre></div>  </div>
+  <p>As you can see I want to order from high to low no matter what sign each number has, but keeping the sign, is it clear?</p>
+</blockquote>
+
+<p>Firstly, we can see that respondents in this forum are all very friendly; multiple users provided a working solution to the exact query. Here is the most upvoted response:</p>
+<blockquote>
+  <p>Use <code class="language-plaintext highlighter-rouge">abs</code> as key to the <code class="language-plaintext highlighter-rouge">sorted</code> function or <code class="language-plaintext highlighter-rouge">list.sort</code>:</p>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">lis</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">9</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">lis</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+</code></pre></div>  </div>
+</blockquote>
+
+<p>A second respondent even posted a link to the Python documentation’s corresponding page:</p>
+<blockquote>
+  <p>See <a href="https://docs.python.org/3/howto/sorting.html">here</a> for more details.</p>
+</blockquote>
+
+<p>Overall, while this post got some great responses, it could have been solved more effectively if the user had navigated directly to the Python documentation.</p>
+
+<h3 id="how-to-do-it-right">How to do it right</h3>
+
+<h4 id="a-recent-well-written-question-can-be-found-under-the-title-error-linkageerror-occurred-while-loading-main-class-comandroidsdklibtoolsdkmanagersdkmanagercli"><a href="https://stackoverflow.com/questions/76882205/error-linkageerror-occurred-while-loading-main-class-com-android-sdklib-tool-sd">A recent well written question can be found under the title: “Error: LinkageError occurred while loading main class com.android.sdklib.tool.sdkmanager.SdkManagerCli”</a></h4>
+
+<p>The user complained about an error he was recieving in VSCode:</p>
+<blockquote>
+  <p>I am trying to set up flutter with VS Code in Ubuntu. I have followed the installation guide and have installed the latest cmdline tools as required by the flutter doctor.
+Now this is the output I get on running flutter doctor again</p>
+  <div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="err">✗</span> <span class="nv">Android</span> <span class="nv">license</span> <span class="nv">status</span> <span class="nv">unknown</span><span class="o">.</span>
+      <span class="nv">Run</span> <span class="p">`</span><span class="sb">flutter doctor --android-licenses</span><span class="p">`</span> <span class="nv">to</span> <span class="nb">accept</span> <span class="nv">the</span> <span class="nv">SDK</span> <span class="nv">licenses</span><span class="o">.</span>
+      <span class="nv">See</span> <span class="nv">https:</span><span class="sr">//</span><span class="nv">flutter</span><span class="o">.</span><span class="nv">dev</span><span class="sr">/docs/g</span><span class="nv">et</span><span class="o">-</span><span class="nv">started</span><span class="sr">/install/linux</span><span class="c1">#android-setup for more details. </span>
+</code></pre></div>  </div>
+  <p>…
+I tried upgrading to Java 17 using sudo apt install openjdk-17-jdk and set up the environment variables but the problem still persists.</p>
+</blockquote>
+
+<p>In this second post, we can see that the forum user provided all the relevant console extracts and some troubleshooting steps they had attempted.  They listed their environment, and some settings they thought were relevant. Along with the title, the post’s formatting proved quite effective as it received five thousand views within the month that it has been up, meaning that lots of people were likely able to benefit from the community’s feedback.</p>
+
+<p>The feedback from other users was also highly detailed, with screenshots and exact steps walking through the steps to solve the issue:</p>
+
+<blockquote>
+  <p>I was able to resolve this issue on Windows 10 with these steps</p>
+
+  <p><img src="https://i.stack.imgur.com/mppWQ.jpg" alt="postScreenshot" width="500" /></p>
+
+  <ol>
+    <li>Using the Android Studio SDK manager, install Android SDK Command-line Tools 8.0. You may need to toggle the checkboxes highlighted in green to see the older versions like 8.0.</li>
+    <li>Using windows explorer, navigate to the <code class="language-plaintext highlighter-rouge">Sdk/cmdline-tools</code> folder. On my system it’s located at <code class="language-plaintext highlighter-rouge">C:\Users\&lt;USER_NAME&gt;\AppData\Local\Android\Sdk\cmdline-tools</code>.</li>
+    <li>Rename the <code class="language-plaintext highlighter-rouge">8.0</code> folder to <code class="language-plaintext highlighter-rouge">latest</code></li>
+    <li>Run <code class="language-plaintext highlighter-rouge">flutter doctor --android-licenses</code>.</li>
+  </ol>
+</blockquote>
+
+<p>One example reply to this posted solution was:</p>
+<blockquote>
+  <p>Thank you so much for this answer! It worked perfectly and solved my issue. You’re a lifesaver! What I was missing was to select the ‘show package details’ otherwise the older version 8.0 was not visible.</p>
+</blockquote>
+
+<h2 id="review">Review</h2>
+
+<p>The key difference between the smart question and the “not-so-smart question” is the number of people who were able to benefit from the question. In the case of the smart question, the respondents posted a more detailed reply and provided a working solution to the exact query. This meant that not only the original asker, but also anyone else who had a similar issue, could benefit from the community’s feedback.</p>
+
+<p>On the other hand, the not-so-smart question did not provide enough specific details or clear information. While the specific problem was solved, what happens at the next stage of the user’s code when they run into another problem? This type of problem-solving will become unsustainable if they endeavor to solve more significant problems. Lots of people have viewed this answer. While that may make it seem like a clear benefit, this is by no means the only place to learn how to sort a list. The problems arise when a flood of these low-level, easy-to-research questions pop up, taking resources away from the more novel, nuanced issues also posted by other coders.</p>
+
+<p>Overall, the smart question demonstrated the importance of clear and concise communication in asking for help. By providing specific details and being concise, the asker enabled the respondents to provide effective and efficient assistance, benefiting not only themselves but also others who may have had similar issues. On the other hand, the not-so-smart question highlighted the potential pitfalls of vague and unclear communication, resulting in a less productive interaction.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
